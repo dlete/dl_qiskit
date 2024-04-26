@@ -41,11 +41,13 @@ sudo apt-get install python3-venv
 
 * Create a virtual environment. Then activate the virtual environment.
 
+In general:
 ```bash
 python3 -m venv </path/to/new/virtual/environment>
 source </path/to/new/virtual/environment>/bin/activate
 ```
 
+In particular:
 I find it convenient to have the virtual environment files in the the root of the project. Also, ensure that those files are not tracked by git (add `*.venv` to `.gitignore`).
 
 ```bash
@@ -70,5 +72,5 @@ pip install --upgrade pip
 Install the Python packages
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements/base.txt
 ```
