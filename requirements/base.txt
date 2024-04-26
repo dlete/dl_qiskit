@@ -1,0 +1,29 @@
+wheel
+numexpr
+
+###########
+# Qiskit  #
+###########
+# Qiskit SDK
+qiskit
+# Qiskit Aer is high-performance quantum computing simulators 
+#with realistic noise models.
+qiskit_aer
+#If you want to install our GPU supported simulators, you have 
+#to install this other package:
+#qiskit-aer-gpu
+
+# to run jobs on quantum hardware
+qiskit-ibm-runtime
+
+# to use visualization functionality or Jupyter notebooks
+qiskit[visualization]
+
+# ?? 
+#qiskit-experiments
+
+###########
+# Jupyter #
+###########
+# to run a Jupyter notebook with the Qiskit packages
+jupyter
