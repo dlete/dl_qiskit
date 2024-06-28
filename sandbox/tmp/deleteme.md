@@ -1,2 +1,2 @@
 # title
-first line in branch BRANCH1, now in branch1
+first line in branch BRANCH1, and then correct the merge conflict
